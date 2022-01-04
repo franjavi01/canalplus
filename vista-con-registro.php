@@ -1,6 +1,6 @@
 <?php
 
-echo "Usuario: <strong>" . $_POST['usuario'];
+echo "Usuario: <strong>" . $_POST['user'];
 echo  "<hr>";
 echo  "<video src='./assets/video-sin-codificar.mp4' autoplay loop></video>";
 

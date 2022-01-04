@@ -8,8 +8,8 @@
 </head>
 <body>
     <form action="./vista-con-registro.php" method="post">
-        Usuario: <input type="text" name="usuario" required><br>
-        Contraseña: <input type="text" required><br>
+        <input type="text" name="user" placeholder="Usuario" required><br>
+        <input type="password" name="password1" placeholder="Contraseña" required><br>
         <input type="submit" value="Enviar">
     </form>
 </body>

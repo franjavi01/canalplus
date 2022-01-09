@@ -7,6 +7,7 @@
     <title>Entrada</title>
 </head>
 <body>
+    <?php require 'conexionBaseDatos.php'; ?>
     <form action="./vista-con-registro.php" method="post">
         <input type="text" name="user" placeholder="Usuario" required><br>
         <input type="password" name="password1" placeholder="Contraseña" required><br>
